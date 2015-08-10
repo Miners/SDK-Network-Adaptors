@@ -7,11 +7,11 @@
 //  Copyright (c) 2013 AppLovin. All rights reserved.
 //
 
-@import GoogleMobileAds;
-
 #import <UIKit/UIKit.h>
-#import "ALAdService.h"
-#import "ALInterstitialAd.h"
+
+#import <GoogleMobileAds/GoogleMobileAds.h>
+#import <AppLovinSDK/ALAdService.h>
+#import <AppLovinSDK/ALInterstitialAd.h>
 
 @interface AppLovinCustomEventInter : NSObject <GADCustomEventInterstitial, ALAdLoadDelegate, ALAdDisplayDelegate>
 @property (strong, atomic) ALAd* appLovinAd;
